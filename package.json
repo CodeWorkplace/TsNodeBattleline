@@ -1,0 +1,22 @@
+{
+    "name": "TsNodeBattleLine",
+    "version": "1.0.0",
+    "main": "main.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "tsc & node ./dist/main.js"
+    },
+    "dependencies": {
+        "koa": "^2.11.0",
+        "koa-router": "^8.0.8",
+        "mongodb": "^3.5.4",
+        "nodemon": "^2.0.2"
+    },
+    "devDependencies": {
+        "@types/koa": "^2.11.2",
+        "@types/koa-router": "^7.4.0",
+        "@types/mongodb": "^3.5.2",
+        "ts-node": "^8.6.2",
+        "typescript": "^3.8.3"
+    }
+}
